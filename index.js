@@ -168,7 +168,7 @@ server.get('/users/:id', (req, res) => {
 // make the web server listen for incoming traffic on port 4000
 server.listen(port, () =>
     // this callback function runs after the server starts successfully.
-  console.log('\n Server running on http://localhost:${port}')
+  console.log(`\n Server running on http://localhost:${port}`)
 );
 
 
